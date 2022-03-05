@@ -1357,7 +1357,7 @@ body.ie ._ibg img {
   height: 55px;
   overflow: hidden;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1401,6 +1401,7 @@ body.ie ._ibg img {
 
 .content-mainSlider__title {
   color: #333;
+  font-size: 48px;
   font-size: 48px;
   font-weight: 900;
   text-transform: uppercase;
@@ -2971,6 +2972,10 @@ body.ie ._ibg img {
   .info-header__column {
     padding: 0px 2.5423728814vw 0px 0px;
   }
+
+  .content-mainSlider__title {
+    font-size: calc(36px + 12 * ((100vw - 320px) / 860));
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -3344,6 +3349,12 @@ body.ie ._ibg img {
 
   .social-footer__item {
     margin: 0px 5px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .content-mainSlider {
+    padding: 5px 30px 35px 15px;
   }
 }
 
